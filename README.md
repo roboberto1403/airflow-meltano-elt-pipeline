@@ -1,4 +1,4 @@
-# Projeto Indicium Data Pipeline
+# Pipeline de Dados
 
 Este projeto implementa um pipeline de dados para extrair informações de um banco de dados PostgreSQL (Northwind) e um arquivo CSV (`order_details`), salvá-los no disco local e, em seguida, carregá-los em um banco de dados PostgreSQL de destino. A orquestração é feita com Apache Airflow e a movimentação de dados com Meltano, tudo conteinerizado com Docker Compose.
 
@@ -30,8 +30,8 @@ Certifique-se de ter instalado:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/roboberto1403/indicium_pipeline.git
-cd indicium_pipeline
+git clone https://github.com/roboberto1403/airflow-meltano-elt-pipeline.git
+cd airflow-meltano-elt-pipeline
 ```
 ### 2. Configuração Inicial
 Antes de iniciar, crie ou edite o arquivo .env na raiz do projeto com as seguintes variáveis:
